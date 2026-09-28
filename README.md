@@ -1,4 +1,3 @@
-# Jueun Park
 
 **Full-Stack Developer**
 
