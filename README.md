@@ -2,9 +2,9 @@
 
 **Full-Stack Developer**
 
-I work mainly with React and TypeScript, building web applications across the frontend, backend, database, and deployment layers.
+I work primarily with React and TypeScript, building products across the frontend, backend, database, and deployment layers.
 
-My projects usually start from product and interface design and continue through implementation, API integration, data modeling, authentication, and deployment. I also work with Python-based automation, Discord applications, and AI APIs when they fit the problem.
+[Portfolio](https://jueun.ai.kr/)
 
 ---
 
@@ -49,7 +49,13 @@ My projects usually start from product and interface design and continue through
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 
-### Infrastructure
+### Desktop / Platform
+
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=flat-square&logo=discord&logoColor=white)
+![discord.py](https://img.shields.io/badge/discord.py-5865F2?style=flat-square&logo=discord&logoColor=white)
+
+### Infrastructure / Deployment
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
@@ -60,7 +66,11 @@ My projects usually start from product and interface design and continue through
 
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Discord](https://img.shields.io/badge/discord.py-5865F2?style=flat-square&logo=discord&logoColor=white)
+
+### Testing
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 
 ### Design
 
@@ -83,42 +93,44 @@ My projects usually start from product and interface design and continue through
 
 ## Selected Projects
 
-### PetLog
+### [PetLog](https://github.com/rhazns22/petlogwep)
+
 Web application for tracking and organizing veterinary expenses, with AI-assisted receipt analysis.
 
 `React` `TypeScript` `Firebase` `Firestore` `Gemini API` `Vercel`
 
 ### Chaengim
+
 A PWA for discovering government benefits based on user conditions and managing application progress, required documents, and saved benefits.
+
+[Frontend](https://github.com/rhazns22/chaengimweb) · [Backend](https://github.com/rhazns22/chaengim)
 
 `React` `TypeScript` `Express` `Prisma` `MySQL` `Railway`
 
 ### SiteOps
+
 Full-stack workflow system for handling requests, assignments, reviews, approvals, and project status.
+
+[Frontend](https://github.com/rhazns22/SiteOps_Front) · [Backend](https://github.com/rhazns22/SiteOps_back)
 
 `React` `TypeScript` `Express` `PostgreSQL` `Supabase` `Prisma` `TanStack Query`
 
 ### GuildRank
+
 Full-stack Discord community platform combining OAuth2 authentication, member and role synchronization, seasonal ranking and reward systems, game party management, game server monitoring, and Discord bot automation.
+
+[Frontend](https://github.com/rhazns22/GuildRank) · [Backend](https://github.com/rhazns22/GuildRank_sever)
 
 `React` `TypeScript` `Tauri` `Express` `Discord.js` `PostgreSQL` `Prisma` `Redis` `Railway`
 
-### NULLTRACE 4093
+### [NULLTRACE 4093](https://github.com/rhazns22/NULLTRACE4093_FND)
+
 Browser-based ARG prototype built around observation, evidence, and verification. Stage 1 uses hidden interaction paths, computed-style clues, local session recovery, and SHA-256 stage receipts to make verification part of the gameplay itself.
+
+[Live](https://4093nulltracepage3904.vercel.app/) · [Frontend](https://github.com/rhazns22/NULLTRACE4093_FND) · [Backend](https://github.com/rhazns22/NULLTRACE4093_BND)
 
 `React` `TypeScript` `Vite` `Web Crypto API` `Playwright` `GitHub Actions` `Vercel`
 
 ---
 
-## Current Focus
-
-- React / TypeScript application architecture
-- Full-stack product development
-- API and database design
-- Authentication and realtime features
-- AI API integration
-- Deployment and production workflows
-
----
-
-<sub>Main stack: React · TypeScript · Node.js · PostgreSQL · Firebase · Supabase</sub>
+<sub>Primary stack: React · TypeScript · Node.js · PostgreSQL · Firebase · Supabase</sub>
