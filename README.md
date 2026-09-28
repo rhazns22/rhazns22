@@ -53,11 +53,11 @@ I build product-oriented web systems with React and TypeScript, and usually take
 
 ## Selected Projects
 
-### [GuildRank](https://github.com/rhazns22/GuildRank)
+### GuildRank
 
 Full-stack Discord community platform for member management, seasonal progression, rewards, party coordination, game server monitoring, and bot-driven community operations.
 
-[Frontend](https://github.com/rhazns22/GuildRank) · [Backend](https://github.com/rhazns22/GuildRank_sever)
+`Private repository`
 
 **Engineering notes**
 - Runs the Express API and Discord bot in a single Node.js process, with deployment constrained to one replica to prevent duplicate gateway sessions.
@@ -70,11 +70,11 @@ Full-stack Discord community platform for member management, seasonal progressio
 
 ---
 
-### [NULLTRACE 4093](https://github.com/rhazns22/NULLTRACE4093_FND)
+### NULLTRACE 4093
 
 Browser-based ARG built around observation, evidence, and verification rather than conventional puzzle progression.
 
-[Live](https://4093nulltracepage3904.vercel.app/) · [Frontend](https://github.com/rhazns22/NULLTRACE4093_FND) · [Backend](https://github.com/rhazns22/NULLTRACE4093_BND)
+[Live](https://4093nulltracepage3904.vercel.app/) · `Private repository`
 
 **Engineering notes**
 - Encodes clues through interaction state and computed CSS properties instead of relying only on visible UI.
@@ -91,7 +91,7 @@ Browser-based ARG built around observation, evidence, and verification rather th
 
 Mobile-first PWA for discovering government benefits from user profile data and managing application progress, required documents, deadlines, and recommendations.
 
-[Live](https://chaengim.vercel.app/) · [Main Repository](https://github.com/rhazns22/chaengim) · [Case Study](https://github.com/rhazns22/chaengimweb)
+[Live](https://chaengim.vercel.app/) · `Private repository`
 
 **Engineering notes**
 - Combines rule-based eligibility filtering with Gemini-generated recommendation context instead of delegating the whole decision path to an LLM.
@@ -108,7 +108,7 @@ Mobile-first PWA for discovering government benefits from user profile data and 
 
 Workflow system for website maintenance requests, assignment, review, approval, activity history, and customer-facing status tracking.
 
-[Frontend](https://github.com/rhazns22/SiteOps_Front) · [Backend](https://github.com/rhazns22/SiteOps_back)
+`Private repository`
 
 **Engineering notes**
 - Models request state transitions across received, in-progress, review-requested, completed, and rejected states.
@@ -121,9 +121,11 @@ Workflow system for website maintenance requests, assignment, review, approval, 
 
 ---
 
-### [PetLog](https://github.com/rhazns22/petlog)
+### PetLog
 
 Web application for recording and organizing veterinary expenses, including AI-assisted receipt analysis and structured expense data.
+
+`Private repository`
 
 `React` `TypeScript` `Firebase` `Firestore` `Gemini API` `Vercel`
 
