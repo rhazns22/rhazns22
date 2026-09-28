@@ -103,6 +103,11 @@ Full-stack Discord community platform combining OAuth2 authentication, member an
 
 `React` `TypeScript` `Tauri` `Express` `Discord.js` `PostgreSQL` `Prisma` `Redis` `Railway`
 
+### NULLTRACE 4093
+Browser-based ARG prototype built around observation, evidence, and verification. Stage 1 uses hidden interaction paths, computed-style clues, local session recovery, and SHA-256 stage receipts to make verification part of the gameplay itself.
+
+`React` `TypeScript` `Vite` `Web Crypto API` `Playwright` `GitHub Actions` `Vercel`
+
 ---
 
 ## Current Focus
