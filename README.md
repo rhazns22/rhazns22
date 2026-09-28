@@ -88,10 +88,10 @@ Web application for tracking and organizing veterinary expenses, with AI-assiste
 
 `React` `TypeScript` `Firebase` `Firestore` `Gemini API` `Vercel`
 
-### VetFlow
-Veterinary operations dashboard for appointments, patients, medical records, hospitalization, billing, and inventory.
+### Chaengim
+A PWA for discovering government benefits based on user conditions and managing application progress, required documents, and saved benefits.
 
-`Next.js` `TypeScript` `Tailwind CSS` `shadcn/ui` `Firestore` `Firebase Auth`
+`React` `TypeScript` `Express` `Prisma` `MySQL` `Railway`
 
 ### SiteOps
 Full-stack workflow system for handling requests, assignments, reviews, approvals, and project status.
