@@ -57,7 +57,7 @@ I build product-oriented web systems with React and TypeScript, and usually take
 
 Full-stack Discord community platform for member management, seasonal progression, rewards, party coordination, game server monitoring, and bot-driven community operations.
 
-`Private repository`
+_Source code is private._
 
 **Engineering notes**
 - Runs the Express API and Discord bot in a single Node.js process, with deployment constrained to one replica to prevent duplicate gateway sessions.
@@ -74,7 +74,7 @@ Full-stack Discord community platform for member management, seasonal progressio
 
 Browser-based ARG built around observation, evidence, and verification rather than conventional puzzle progression.
 
-[Live](https://4093nulltracepage3904.vercel.app/) · `Private repository`
+[Live](https://4093nulltracepage3904.vercel.app/) · _Source code is private._
 
 **Engineering notes**
 - Encodes clues through interaction state and computed CSS properties instead of relying only on visible UI.
@@ -91,7 +91,7 @@ Browser-based ARG built around observation, evidence, and verification rather th
 
 Mobile-first PWA for discovering government benefits from user profile data and managing application progress, required documents, deadlines, and recommendations.
 
-[Live](https://chaengim.vercel.app/) · `Private repository`
+[Live](https://chaengim.vercel.app/) · _Source code is private._
 
 **Engineering notes**
 - Combines rule-based eligibility filtering with Gemini-generated recommendation context instead of delegating the whole decision path to an LLM.
@@ -108,7 +108,7 @@ Mobile-first PWA for discovering government benefits from user profile data and 
 
 Workflow system for website maintenance requests, assignment, review, approval, activity history, and customer-facing status tracking.
 
-`Private repository`
+_Source code is private._
 
 **Engineering notes**
 - Models request state transitions across received, in-progress, review-requested, completed, and rejected states.
@@ -125,7 +125,14 @@ Workflow system for website maintenance requests, assignment, review, approval, 
 
 Web application for recording and organizing veterinary expenses, including AI-assisted receipt analysis and structured expense data.
 
-`Private repository`
+_Source code is private._
+
+**Engineering notes**
+- Uses a human-in-the-loop flow: AI-extracted receipt data is treated as a draft and is only persisted after user review and correction.
+- Proxies Gemini requests through a Vercel Serverless Function so API credentials are not exposed in the client bundle.
+- Resizes and compresses high-resolution receipt images in the browser before upload to reduce transfer cost and analysis latency.
+- Stores authenticated user data in Firebase and keeps expense records, pet profiles, and receipt assets separated by user context.
+- Provides fallback paths for malformed AI responses, failed analysis, and manual entry.
 
 `React` `TypeScript` `Firebase` `Firestore` `Gemini API` `Vercel`
 
@@ -135,6 +142,5 @@ Web application for recording and organizing veterinary expenses, including AI-a
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
