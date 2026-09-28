@@ -98,10 +98,10 @@ Full-stack workflow system for handling requests, assignments, reviews, approval
 
 `React` `TypeScript` `Express` `PostgreSQL` `Supabase` `Prisma` `TanStack Query`
 
-### LOUNGE
-Discord application for temporary voice channels, parties, events, social profiles, and server activity features.
+### GuildRank
+Full-stack Discord community platform combining OAuth2 authentication, member and role synchronization, seasonal ranking and reward systems, game party management, game server monitoring, and Discord bot automation.
 
-`Python` `discord.py` `FastAPI` `PostgreSQL` `Redis` `Docker`
+`React` `TypeScript` `Tauri` `Express` `Discord.js` `PostgreSQL` `Prisma` `Redis` `Railway`
 
 ---
 
